@@ -123,7 +123,20 @@ console.log(andoperator());
 //Activity 5 
   
 //Task 14 
+let numb = 2;
+let posnumb = numb >=0 ? "the number is positive":"the number is negative";
+console.log(posnumb);
 
+//Feature Request
 
-
-
+const calci = (n1,n2) => {
+    const plus = n1+n2;
+    const minus = n1-n2;
+    const into = n1*n2;
+   const oper = `the addition is ${plus} the sunstraction is ${minus} the multiplication is ${into}` 
+  return oper;
+}
+const run = calci(4,6);
+console.log(run);
+ 
+//another two task are same as above given 
